@@ -1,0 +1,184 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.bod{
+    border:3.5px solid black;
+    margin: 8px;
+}
+.bods{
+    border:3.5px solid black;
+    margin: 8px;
+    margin-top: -30px;
+}
+
+
+.titles{
+    float: left;
+    text-transform: uppercase;
+    margin-left: 290px;
+    padding-top: 23px;
+    font-weight: 400;
+}
+
+header{
+    display: block;
+}
+header nav{
+    float: right;
+}
+
+.lists{
+    margin-right: 280px;
+}
+
+ul li{
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/*body section*/
+.backs{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/back.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+    margin: 8px;
+    display: block;
+    margin-top: 68px;
+    position: relative;
+}
+
+/*body od the page*/
+.container-2col {
+    clear: left;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+  }
+  
+  .container-1col {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: none;
+  }
+  
+  .col1 {
+    float: left;
+    width: 50%;
+    position: relative;
+    
+    overflow: hidden;
+  }
+  
+  .col2 {
+    float: left;
+    width: 50%;
+    position: relative;
+
+    overflow: hidden;
+  }
+
+  .col1 H2,p{
+      width: 50%;
+      margin-left: 330px;
+      margin-top: 20px;
+  }
+  .col1 p{
+   line-height: 1.5;
+   font-size: 18px;
+}
+  .col1 H2{
+    background: rgb(241, 79, 246);
+   
+    font-size: 25px;
+}
+
+  .col2 img{
+      width: 40%;
+      height: 250px;
+      border-radius: 50%;
+      margin-right: 330px;
+      margin-top: 20px;
+  }
+
+/*body ended*/
+
+/* center text */
+.text-text{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 18px;
+}
+
+
+
+
+footer{
+    background: #221e1e;
+    height: 120px;
+}
+
+footer p{
+    color: white;
+} 
+footer span{
+    background: white;
+}
+footer a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.abc{
+    width: 80%;
+   padding: 0;
+   margin-right: -80px;
+   position: relative;  
+}
+
+
+#recent{
+    font-size: 70%;
+}
+
+.row{
+    width: 70%;
+    padding: 20px;
+}
+
+.col{
+    width: 10px;
+    padding-right: 50px;
+}
+
+
+
+.p1{
+    align-content: center;
+    padding-top: 30px;
+}
+
+#space{
+    color: transparent;
+    background-color: #221e1e;
+}
+
+#footer-hr{
+    border:0.5px solid #2e2929;
+    margin-right: 27%;
+    margin-left: 25%;
+}
